@@ -1,0 +1,47 @@
+.container {
+  width: fit-content;
+}
+
+.util-container * {
+  margin-top: 30;
+  padding: 2;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.column-hand {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.extended-vert-modal {
+  height: '70%';
+}
+
+.extended-horiz-modal {
+  width: '70%';
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.row > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.modal-backdrop {
+  background-color: darkslategrey;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
