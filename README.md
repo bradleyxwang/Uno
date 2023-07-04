@@ -4,4 +4,6 @@ This is a full-stack TypeScript web application to host online Uno games with 2-
 
 The frontend uses React.js components and React Native to display the Uno user interface to players. The backend uses a RESTful API with Express.js and a MongoDB database to store player match history and elo ratings.
 
-## Demo
+# Demo
+![alt text](https://github.com/bradleyxwang/Uno/blob/main/PlayingUnoGame.PNG)
+![alt text](https://github.com/bradleyxwang/Uno/blob/main/ViewingLeaderboard.PNG)
